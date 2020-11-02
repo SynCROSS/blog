@@ -1,8 +1,8 @@
 import React from 'react';
 import Pagination from '../../components/posts/Pagination';
-import { useSelector } from 'C:/Users/kuuha/AppData/Local/Yarn/Data/global/node_modules/react-redux';
-import { withRouter } from 'C:/Users/kuuha/AppData/Local/Yarn/Data/global/node_modules/react-router-dom';
-import qs from 'C:/Users/kuuha/AppData/Local/Yarn/Data/global/node_modules/qs';
+import { useSelector } from 'react-redux';
+import { withRouter } from 'react-router-dom';
+import qs from 'qs';
 
 const PaginationContainer = ({ location, match }) => {
   const { lastPage, posts, loading } = useSelector(({ posts, loading }) => ({
