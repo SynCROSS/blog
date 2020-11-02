@@ -3,8 +3,8 @@ import WriteActionButtons from '../../components/write/WriteActionButtons';
 import {
   useSelector,
   useDispatch,
-} from 'C:/Users/kuuha/AppData/Local/Yarn/Data/global/node_modules/react-redux';
-import { withRouter } from 'C:/Users/kuuha/AppData/Local/Yarn/Data/global/node_modules/react-router-dom';
+} from 'react-redux';
+import { withRouter } from 'react-router-dom';
 import { writePost, updatePost } from '../../modules/write';
 
 const WriteActionButtonsContainer = ({ history }) => {
