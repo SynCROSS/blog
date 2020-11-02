@@ -1,4 +1,4 @@
-const Joi = require('C:/Users/kuuha/AppData/Local/Yarn/Data/global/node_modules/@hapi/joi');
+const Joi = require('@hapi/joi');
 const User = require('../../models/user.js');
 
 exports.register = async ctx => {
