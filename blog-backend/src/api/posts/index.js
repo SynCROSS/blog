@@ -1,6 +1,6 @@
-// import Router from 'C:/Users/kuuha/AppData/Local/Yarn/Data/global/node_modules/koa-router';
+// import Router from 'koa-router';
 // import * as postsCtrl from './posts.ctrl';
-const Router = require('C:/Users/kuuha/AppData/Local/Yarn/Data/global/node_modules/koa-router');
+const Router = require('koa-router');
 const postCtrl = require('./posts.ctrl');
 const checkLoggedIn = require('../../lib/checkLoggedIn');
 
