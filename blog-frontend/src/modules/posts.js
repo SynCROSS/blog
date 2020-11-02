@@ -1,12 +1,12 @@
 import {
   createAction,
   handleActions,
-} from 'C:/Users/kuuha/AppData/Local/Yarn/Data/global/node_modules/redux-actions';
+} from 'redux-actions';
 import createRequestSaga, {
   createRequestActionTypes,
 } from '../lib/createRequestSaga.js';
 import * as postsAPI from '../lib/api/posts';
-import { takeLatest } from 'C:/Users/kuuha/AppData/Local/Yarn/Data/global/node_modules/redux-saga/effects';
+import { takeLatest } from 'redux-saga/effects';
 
 const [
   LIST_POSTS,
