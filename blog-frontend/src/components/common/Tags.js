@@ -1,6 +1,6 @@
 import React from 'react';
-import styled from 'C:/Users/kuuha/AppData/Local/Yarn/Data/global/node_modules/styled-components';
-import { Link } from 'C:/Users/kuuha/AppData/Local/Yarn/Data/global/node_modules/react-router-dom';
+import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
 const TagsBlock = styled.div`
   margin-top: 0.5rem;
