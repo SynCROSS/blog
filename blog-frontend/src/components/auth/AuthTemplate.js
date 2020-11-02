@@ -1,7 +1,7 @@
 import React from 'react';
-import styled from 'C:/Users/kuuha/AppData/Local/Yarn/Data/global/node_modules/styled-components';
+import styled from 'styled-components';
 import palette from '../../lib/styles/palette';
-import { Link } from 'C:/Users/kuuha/AppData/Local/Yarn/Data/global/node_modules/react-router-dom';
+import { Link } from 'react-router-dom';
 import logo from '../../logo/logo-title.svg';
 
 const AuthTemplateBlock = styled.div`
