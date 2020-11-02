@@ -1,7 +1,7 @@
 import {
   createAction,
   handleActions,
-} from 'C:/Users/kuuha/AppData/Local/Yarn/Data/global/node_modules/redux-actions';
+} from 'redux-actions';
 
 const START_LOADING = 'loading/START_LOADING';
 const FINISH_LOADING = 'loading/FINISH_LOADING';
