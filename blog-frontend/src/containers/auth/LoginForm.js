@@ -2,11 +2,11 @@ import React, { useEffect, useState } from 'react';
 import {
   useDispatch,
   useSelector,
-} from 'C:/Users/kuuha/AppData/Local/Yarn/Data/global/node_modules/react-redux';
+} from 'react-redux';
 import { changeField, initializeForm, login } from '../../modules/auth';
 import AuthForm from '../../components/auth/AuthForm';
 import { check } from '../../modules/user';
-import { withRouter } from 'C:/Users/kuuha/AppData/Local/Yarn/Data/global/node_modules/react-router-dom';
+import { withRouter } from 'react-router-dom';
 
 const LoginForm = ({ history }) => {
   const [error, setError] = useState(null);
