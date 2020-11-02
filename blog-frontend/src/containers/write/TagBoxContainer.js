@@ -2,7 +2,7 @@ import React from 'react';
 import {
   useDispatch,
   useSelector,
-} from 'C:/Users/kuuha/AppData/Local/Yarn/Data/global/node_modules/react-redux';
+} from 'react-redux';
 import TagBox from '../../components/write/TagBox';
 import { changeField } from '../../modules/write';
 
