@@ -1,6 +1,6 @@
 import React from 'react';
-import styled from 'C:/Users/kuuha/AppData/Local/Yarn/Data/global/node_modules/styled-components';
-import qs from 'C:/Users/kuuha/AppData/Local/Yarn/Data/global/node_modules/qs';
+import styled from 'styled-components';
+import qs from 'qs';
 import Button from '../common/Button';
 
 const PaginationBlock = styled.div`
