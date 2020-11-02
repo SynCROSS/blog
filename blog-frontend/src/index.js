@@ -3,17 +3,17 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import { BrowserRouter } from 'C:/Users/kuuha/AppData/Local/Yarn/Data/global/node_modules/react-router-dom';
-import { Provider } from 'C:/Users/kuuha/AppData/Local/Yarn/Data/global/node_modules/react-redux';
+import { BrowserRouter } from 'react-router-dom';
+import { Provider } from 'react-redux';
 import {
   createStore,
   applyMiddleware,
-} from 'C:/Users/kuuha/AppData/Local/Yarn/Data/global/node_modules/redux';
-import createSagaMiddleware from 'C:/Users/kuuha/AppData/Local/Yarn/Data/global/node_modules/redux-saga';
-import { composeWithDevTools } from 'C:/Users/kuuha/AppData/Local/Yarn/Data/global/node_modules/redux-devtools-extension';
+} from 'redux';
+import createSagaMiddleware from 'redux-saga';
+import { composeWithDevTools } from 'redux-devtools-extension';
 import rootReducer, { rootSaga } from './modules';
 import { tempSetUser, check } from './modules/user';
-import { HelmetProvider } from 'C:/Users/kuuha/AppData/Local/Yarn/Data/global/node_modules/react-helmet-async';
+import { HelmetProvider } from 'react-helmet-async';
 
 const sagaMiddleware = createSagaMiddleware();
 const store = createStore(
