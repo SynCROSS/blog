@@ -1,5 +1,5 @@
-import { combineReducers } from 'C:/Users/kuuha/AppData/Local/Yarn/Data/global/node_modules/redux';
-import { all } from 'C:/Users/kuuha/AppData/Local/Yarn/Data/global/node_modules/redux-saga/effects';
+import { combineReducers } from 'redux';
+import { all } from 'redux-saga/effects';
 import auth, { authSaga } from './auth';
 import loading from './loading';
 import user, { userSaga } from './user';
