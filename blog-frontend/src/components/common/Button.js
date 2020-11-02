@@ -1,9 +1,9 @@
 import React from 'react';
 import styled, {
   css,
-} from 'C:/Users/kuuha/AppData/Local/Yarn/Data/global/node_modules/styled-components';
-import { Link } from 'C:/Users/kuuha/AppData/Local/Yarn/Data/global/node_modules/react-router-dom';
-// import { withRouter } from 'C:/Users/kuuha/AppData/Local/Yarn/Data/global/node_modules/react-router-dom';
+} from 'styled-components';
+import { Link } from 'react-router-dom';
+// import { withRouter } from 'react-router-dom';
 import palette from '../../lib/styles/palette';
 
 const ButtonStyle = css`
