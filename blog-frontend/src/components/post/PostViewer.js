@@ -1,10 +1,10 @@
 import React from 'react';
-import styled from 'C:/Users/kuuha/AppData/Local/Yarn/Data/global/node_modules/styled-components';
+import styled from 'styled-components';
 import palette from '../../lib/styles/palette';
 import Responsive from '../common/Responsive';
 import SubInfo from '../common/SubInfo';
 import Tags from '../common/Tags';
-import { Helmet } from 'C:/Users/kuuha/AppData/Local/Yarn/Data/global/node_modules/react-helmet-async';
+import { Helmet } from 'react-helmet-async';
 
 const PostViewerBlock = styled(Responsive)`
   margin-top: 4rem;
