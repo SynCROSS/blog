@@ -1,7 +1,7 @@
 const Post = require('../../models/post');
-const mongoose = require('C:/Users/kuuha/AppData/Local/Yarn/Data/global/node_modules/mongoose');
-const Joi = require('C:/Users/kuuha/AppData/Local/Yarn/Data/global/node_modules/@hapi/joi');
-const sanitizeHTML = require('C:/Users/kuuha/AppData/Local/Yarn/Data/global/node_modules/sanitize-html');
+const mongoose = require('mongoose');
+const Joi = require('@hapi/joi');
+const sanitizeHTML = require('sanitize-html');
 
 const { ObjectId } = mongoose.Types;
 
