@@ -1,11 +1,11 @@
 import {
   createAction,
   handleActions,
-} from 'C:/Users/kuuha/AppData/Local/Yarn/Data/global/node_modules/redux-actions';
+} from 'redux-actions';
 import {
   takeLatest,
   call,
-} from 'C:/Users/kuuha/AppData/Local/Yarn/Data/global/node_modules/redux-saga/effects';
+} from 'redux-saga/effects';
 import * as authAPI from '../lib/api/auth';
 import createRequestSaga, {
   createRequestActionTypes,
