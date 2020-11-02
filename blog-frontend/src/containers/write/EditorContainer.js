@@ -3,7 +3,7 @@ import Editor from '../../components/write/Editor';
 import {
   useSelector,
   useDispatch,
-} from 'C:/Users/kuuha/AppData/Local/Yarn/Data/global/node_modules/react-redux';
+} from 'react-redux';
 import { changeField, initialize } from '../../modules/write';
 
 const EditorContainer = () => {
