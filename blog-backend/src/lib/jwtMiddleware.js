@@ -1,4 +1,4 @@
-const jwt = require('C:/Users/kuuha/AppData/Local/Yarn/Data/global/node_modules/jsonwebtoken');
+const jwt = require('jsonwebtoken');
 const User = require('../models/user');
 
 const jwtMiddleware = async (ctx, next) => {
