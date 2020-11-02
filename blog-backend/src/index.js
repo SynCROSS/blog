@@ -1,24 +1,24 @@
 // const u5e = require('abrequire');s
-require('C:/Users/kuuha/AppData/Local/Yarn/Data/global/node_modules/dotenv').config();
+require('dotenv').config();
 // const url = require('url');
 // const Koa = import(
 //   url.pathToFileURL(
-//     'C:/Users/kuuha/AppData/Local/Yarn/Data/global/node_modules/koa-router'
+//     'koa-router'
 //   )
 // );
 
-// import Koa from 'C:/Users/kuuha/AppData/Local/Yarn/Data/global/node_modules/koa';
-// import Router from 'C:/Users/kuuha/AppData/Local/Yarn/Data/global/node_modules/koa-router';
-// import bodyparser from 'C:/Users/kuuha/AppData/Local/Yarn/Data/global/node_modules/koa-bodyparser';
-// import mongoose from 'C:/Users/kuuha/AppData/Local/Yarn/Data/global/node_modules/mongoose';
+// import Koa from 'koa';
+// import Router from 'koa-router';
+// import bodyparser from 'koa-bodyparser';
+// import mongoose from 'mongoose';
 
-const Koa = require('C:/Users/kuuha/AppData/Local/Yarn/Data/global/node_modules/koa');
-const Router = require('C:/Users/kuuha/AppData/Local/Yarn/Data/global/node_modules/koa-router');
-const bodyParser = require('C:/Users/kuuha/AppData/Local/Yarn/Data/global/node_modules/koa-bodyparser');
-const mongoose = require('C:/Users/kuuha/AppData/Local/Yarn/Data/global/node_modules/mongoose');
-const serve = require('C:/Users/kuuha/AppData/Local/Yarn/Data/global/node_modules/koa-static');
+const Koa = require('koa');
+const Router = require('koa-router');
+const bodyParser = require('koa-bodyparser');
+const mongoose = require('mongoose');
+const serve = require('koa-static');
 const path = require('path');
-const send = require('C:/Users/kuuha/AppData/Local/Yarn/Data/global/node_modules/koa-send');
+const send = require('koa-send');
 
 // import api from './api';
 const api = require('./api');
