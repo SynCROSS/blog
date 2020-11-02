@@ -1,11 +1,11 @@
 import React from 'react';
-import { Route } from 'C:/Users/kuuha/AppData/Local/Yarn/Data/global/node_modules/react-router-dom';
+import { Route } from 'react-router-dom';
 import PostListPage from './pages/PostListPage.js';
 import LoginPage from './pages/LoginPage.js';
 import RegisterPage from './pages/RegisterPage';
 import WritePage from './pages/WritePage';
 import PostPage from './pages/PostPage';
-import { Helmet } from 'C:/Users/kuuha/AppData/Local/Yarn/Data/global/node_modules/react-helmet-async';
+import { Helmet } from 'react-helmet-async';
 
 const App = () => {
   return (
