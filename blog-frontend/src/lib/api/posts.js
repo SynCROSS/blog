@@ -1,4 +1,4 @@
-import qs from 'C:/Users/kuuha/AppData/Local/Yarn/Data/global/node_modules/qs';
+import qs from 'qs';
 import client from './client';
 
 export const writePost = ({ title, body, tags }) =>
