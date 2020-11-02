@@ -1,4 +1,4 @@
-const Router = require('C:/Users/kuuha/AppData/Local/Yarn/Data/global/node_modules/koa-router');
+const Router = require('koa-router');
 const authCtrl = require('./auth.ctrl');
 
 const auth = new Router();
