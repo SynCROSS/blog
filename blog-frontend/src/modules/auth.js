@@ -1,12 +1,12 @@
 import {
   createAction,
   handleActions,
-} from 'C:/Users/kuuha/AppData/Local/Yarn/Data/global/node_modules/redux-actions';
-import produce from 'C:/Users/kuuha/AppData/Local/Yarn/Data/global/node_modules/immer';
+} from 'redux-actions';
+import produce from 'immer';
 import createRequestSaga, {
   createRequestActionTypes,
 } from '../lib/createRequestSaga';
-import { takeLatest } from 'C:/Users/kuuha/AppData/Local/Yarn/Data/global/node_modules/redux-saga/effects';
+import { takeLatest } from 'redux-saga/effects';
 import * as authAPI from '../lib/api/auth';
 
 const CHANGE_FIELD = 'auth/CHANGE_FIELD';
