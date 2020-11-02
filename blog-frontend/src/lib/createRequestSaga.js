@@ -1,7 +1,7 @@
 import {
   call,
   put,
-} from 'C:/Users/kuuha/AppData/Local/Yarn/Data/global/node_modules/redux-saga/effects';
+} from 'redux-saga/effects';
 import { startLoading, finishLoading } from '../modules/loading';
 
 export const createRequestActionTypes = type => {
