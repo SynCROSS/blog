@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react';
-import styled from 'C:/Users/kuuha/AppData/Local/Yarn/Data/global/node_modules/styled-components';
-import Quill from 'C:/Users/kuuha/AppData/Local/Yarn/Data/global/node_modules/quill';
-import 'C:/Users/kuuha/AppData/Local/Yarn/Data/global/node_modules/quill/dist/quill.bubble.css';
+import styled from 'styled-components';
+import Quill from 'quill';
+import 'quill/dist/quill.bubble.css';
 import palette from '../../lib/styles/palette';
 import Responsive from '../common/Responsive';
 
