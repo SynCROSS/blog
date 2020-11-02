@@ -2,8 +2,8 @@ import React, { useEffect } from 'react';
 import {
   useDispatch,
   useSelector,
-} from 'C:/Users/kuuha/AppData/Local/Yarn/Data/global/node_modules/react-redux';
-import { withRouter } from 'C:/Users/kuuha/AppData/Local/Yarn/Data/global/node_modules/react-router-dom';
+} from 'react-redux';
+import { withRouter } from 'react-router-dom';
 import { readPost, unloadPost } from '../../modules/post';
 import PostViewer from '../../components/post/PostViewer';
 import PostActionButtons from '../../components/post/PostActionButtons';
