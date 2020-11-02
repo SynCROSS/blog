@@ -1,5 +1,5 @@
 import React from 'react';
-import styled from 'C:/Users/kuuha/AppData/Local/Yarn/Data/global/node_modules/styled-components';
+import styled from 'styled-components';
 import Button from '../common/Button';
 
 const WriteActionButtonsBlock = styled.div`
