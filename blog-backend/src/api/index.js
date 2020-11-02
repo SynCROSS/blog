@@ -1,6 +1,6 @@
-// import Router from 'C:/Users/kuuha/AppData/Local/Yarn/Data/global/node_modules/koa-router';
+// import Router from 'koa-router';
 // import posts from './posts';
-const Router = require('C:/Users/kuuha/AppData/Local/Yarn/Data/global/node_modules/koa-router');
+const Router = require('koa-router');
 const posts = require('./posts');
 const auth = require('./auth');
 
