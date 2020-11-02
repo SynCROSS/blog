@@ -1,10 +1,10 @@
 import React, { useEffect } from 'react';
-import qs from 'C:/Users/kuuha/AppData/Local/Yarn/Data/global/node_modules/qs';
-import { withRouter } from 'C:/Users/kuuha/AppData/Local/Yarn/Data/global/node_modules/react-router-dom';
+import qs from 'qs';
+import { withRouter } from 'react-router-dom';
 import {
   useDispatch,
   useSelector,
-} from 'C:/Users/kuuha/AppData/Local/Yarn/Data/global/node_modules/react-redux';
+} from 'react-redux';
 import PostList from '../../components/posts/PostList';
 import { listPosts } from '../../modules/posts';
 
