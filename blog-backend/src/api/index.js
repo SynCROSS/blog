@@ -1,6 +1,6 @@
 // import Router from 'koa-router';
-// import posts from './posts';
 const Router = require('koa-router');
+// import posts from './posts';
 const posts = require('./posts');
 const auth = require('./auth');
 
