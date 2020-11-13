@@ -48,12 +48,6 @@ exports.getPostById = async (ctx, next) => {
   }
 };
 
-// const write = (ctx) => {};
-// const list = (ctx) => {};
-// const read = (ctx) => {};
-// const remove = (ctx) => {};
-// const update = (ctx) => {};
-
 exports.write = async ctx => {
   const schema = Joi.object().keys({
     title: Joi.string().required(),
@@ -122,36 +116,13 @@ exports.list = async ctx => {
         // post.body.length < 200 ? post.body : `${post.body.slice(0, 200)}...`,
       };
     });
-    // ctx.body = posts
-    //   .map(post => post.toJSON())
-    //   .map(post => {
-    //     return {
-    //       ...post,
-    //       body:
-    //         post.body.length < 200
-    //           ? post.body
-    //           : `${post.body.slice(0, 200)}...`,
-    //     };
-    //   });
   } catch (e) {
     ctx.throw(500, e);
   }
 };
 
 exports.read = ctx => {
-  // exports.read = async ctx => {
   ctx.body = ctx.state.post;
-  /* const { id } = ctx.params;
-  try {
-    const post = await Post.findById(id).exec();
-    if (!post) {
-      ctx.status = 404; // NOT FOUND
-      return;
-    }
-    ctx.body = post;
-  } catch (e) {
-    ctx.throw(500, e);
-  } */
 };
 
 exports.remove = async ctx => {
@@ -185,7 +156,6 @@ exports.update = async ctx => {
 
   try {
     const post = await Post.findByIdAndUpdate(id, nextData, {
-      // const post = await Post.findByIdAndUpdate(id, ctx.request.body, {
       new: true,
     }).exec();
     if (!post) {
