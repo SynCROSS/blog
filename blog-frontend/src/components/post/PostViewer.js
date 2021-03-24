@@ -19,27 +19,7 @@ const PostHead = styled.div`
     margin: 0;
   }
 `;
-/* const SubInfo = styled.div`
-  margin-top: 1rem;
-  color: ${palette.gray[6]}
-  span+span:before{
-    color: ${palette.gray[5]};
-    padding: 0 .25rem;
-    content: '\\B7';
-  }`;
-const Tags = styled.div`
-  margin-top: 0.5rem;
-  .tag {
-    display: inline-block;
-    color: #00376b;
-    text-decoration: none;
-    margin-right: 0.5rem;
-    &:hover {
-      cursor: pointer;
-      color: #5a7e9f;
-    }
-  }
-`; */
+
 const PostContent = styled.div`
   font-size: 1.3125rem;
   color: ${palette.gray[8]};
@@ -69,18 +49,7 @@ const PostViewer = ({ post, error, loading, actionButtons }) => {
           publishedDate={publishedDate}
           hasMarginTop
         />
-        {/* <SubInfo>
-          <span>
-            <b>{user.username}</b>
-          </span>
-          <span>{new Date(publishedDate).toLocaleDateString()}</span>
-        </SubInfo> */}
         <Tags tags={tags} />
-        {/* <Tags>
-          {tags.map(tag => (
-            <div className="tag">#{tag}</div>
-          ))}
-        </Tags> */}
       </PostHead>
       {actionButtons}
       <PostContent dangerouslySetInnerHTML={{ __html: body }} />
