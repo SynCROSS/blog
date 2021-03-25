@@ -1,10 +1,5 @@
 require('dotenv').config();
 
-// import Koa from 'koa';
-// import Router from 'koa-router';
-// import bodyparser from 'koa-bodyparser';
-// import mongoose from 'mongoose';
-
 const Koa = require('koa');
 const Router = require('koa-router');
 const bodyParser = require('koa-bodyparser');
@@ -13,10 +8,8 @@ const serve = require('koa-static');
 const path = require('path');
 const send = require('koa-send');
 
-// import api from './api';
 const api = require('./api');
 const jwtMiddleware = require('./lib/jwtMiddleware');
-// Testing for data injection(?)
 
 const { PORT, MONGO_URI } = process.env;
 
@@ -24,7 +17,6 @@ mongoose
   .connect(MONGO_URI, { useNewUrlParser: true, useFindAndModify: false })
   .then(() => {
     console.log('Connected to MongoDB');
-    // createFakeData();
   })
   .catch(e => {
     console.error(e);
