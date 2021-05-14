@@ -42,8 +42,6 @@ const RegisterForm = ({ history }) => {
   }, [dispatch]);
   useEffect(() => {
     if (authError) {
-      // console.log('Error!');
-      // console.log(authError);
       if (authError.response.status === 409) {
         setError('Already Account exists');
         return;
@@ -59,20 +57,12 @@ const RegisterForm = ({ history }) => {
   }, [auth, authError, dispatch]);
   useEffect(() => {
     if (user) {
-      // console.log('checkAPI Successfully works');
-      // console.log(user);
-      // var move = confirm('Shall we go Login?');
-      // if (move == true) {
       history.push('/login');
       try {
         localStorage.setItem('user', JSON.stringify(user));
       } catch (e) {
         console.log('localStorage is not working');
       }
-      //   move = confirm('Do you want to stay here?');
-      // }
-      // if (move == true) return;
-      // else history.push('/');
     }
   }, [history, user]);
 
